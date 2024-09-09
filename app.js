@@ -23,6 +23,12 @@ function pesquisar() {
                 </h2>
                 <p class="descricao-meta">${dado.descricao}</p> <!-- Descrição do game -->
                 <a href="${dado.link}" target="_blank">Mais informações</a> <!-- Link para mais informações -->
+                <div class="imagens">
+                    <img src="${dado.imagem[0]}" alt="Imagem 1 de ${dado.titulo}" />
+                    <img src="${dado.imagem[1]}" alt="Imagem 2 de ${dado.titulo}" />
+                    <img src="${dado.imagem[2]}" alt="Imagem 3 de ${dado.titulo}" />
+                
+                </div>
             </div>
             `;
         }

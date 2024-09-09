@@ -113,3 +113,17 @@ footer {
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
 }
+/* Estilizando o container de imagens */
+.imagens {
+    display: flex;
+    justify-content: space-between; /* Espaçamento uniforme entre as imagens */
+    margin-top: 1rem; /* Espaçamento superior entre o texto e as imagens */
+}
+
+/* Estilizando as imagens */
+.imagens img {
+    width: 30%; /* Largura de 30% para cada imagem, permitindo que três caibam lado a lado */
+    height: auto; /* Altura ajustada proporcionalmente */
+    border-radius: 0.5rem; /* Borda levemente arredondada */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para as imagens */
+}
